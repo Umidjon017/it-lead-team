@@ -6,7 +6,7 @@
             <nav class="classy-navbar justify-content-between" id="uzaNav">
 
                 <!-- Logo -->
-                <a class="nav-brand" href="index.html"><img src="./img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="index.html"><img src="{{ asset('/img/core-img/logo.png') }}" alt=""></a>
 
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
@@ -25,6 +25,7 @@
                         <ul id="nav">
                             <li class="{{ request()->is('/') ? "current-item" : ' ' }}"><a href="{{ url("/") }}">Home</a></li>
                             <li class="{{ request()->is('portfolios') ? "current-item" : ' ' }}"><a href="{{ url("portfolios") }}">Portfolio</a></li>
+                            {{-- <li class="{{ request()->is('portfolios/{portfolio}') ? "current-item" : ' ' }}"><a href="{{ url("portfolios/{portfolio}") }}">Single Portfolio</a></li> --}}
                             <li class="{{ request()->is('about') ? "current-item" : '' }}"><a href="{{ url("about") }}">About</a></li>
                             <li class="{{ request()->is('contact') ? "current-item" : ' ' }}"><a href="{{ url("contact") }}">Contact</a></li>
 

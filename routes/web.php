@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PortfolioController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,9 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/portfolios', function () {
-    return view('components.pages.portfolio');
-});
+Route::resource('/portfolios', PortfolioController::class);
 
 Route::get('/about', function () {
     return view('components.pages.about');

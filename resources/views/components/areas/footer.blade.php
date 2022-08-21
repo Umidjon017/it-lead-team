@@ -83,7 +83,7 @@
 
         <div class="row" style="margin-bottom: 30px;">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            {{ __("Copyright") }} &copy; <script>document.write(new Date().getFullYear());</script> {{ __("All rights reserved | This template is made with ") }} <a href="#home"> &nbsp; {{ __(" IT LEAD") }} </a>
+            {{ __("Copyright") }} &copy; <script>document.write(new Date().getFullYear());</script> {{ __("All rights reserved | This template is made with ") }} <a href="{{ url('/') }}"> &nbsp; {{ __(" IT LEAD") }} </a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         </div>
 

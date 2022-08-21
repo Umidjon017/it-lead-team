@@ -11,7 +11,7 @@
     <title>{{ __("IT LEAD - SOFTWARE AGENCY") }}</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset("./img/core-img/favicon.ico") }}">
+    <link rel="icon" href="{{ asset("/img/core-img/favicon.ico") }}">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="{{ asset("style.css") }}">
@@ -38,7 +38,7 @@
                         <!-- Form -->
                         <form action="index.html" method="post">
                             <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
-                            <button type="submit">Search</button>
+                            <button type="submit">{{ __("Search") }}</button>
                         </form>
                     </div>
                 </div>
@@ -59,15 +59,15 @@
 
     <!-- ******* All JS Files ******* -->
     <!-- jQuery js -->
-    <script src="js/jquery.min.js"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
     <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="{{ asset('js/popper.min.js') }}"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <!-- All js -->
-    <script src="js/uza.bundle.js"></script>
+    <script src="{{ asset('js/uza.bundle.js') }}"></script>
     <!-- Active js -->
-    <script src="js/default-assets/active.js"></script>
+    <script src="{{ asset('js/default-assets/active.js') }}"></script>
 
 </body>
 
