@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('client');
             $table->string('location');
             $table->timestamp('ordered_at');
+            $table->enum('portfolio_type', ['ui-ux-design', 'front-end', 'back-end', 'mobile-app']);
             $table->timestamps();
         });
     }

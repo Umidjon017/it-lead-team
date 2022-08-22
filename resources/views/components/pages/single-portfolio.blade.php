@@ -33,15 +33,15 @@
                 <div class="col-12 col-md-6">
                     <div class="portfolio-details-text">
                         <h2>{{ $portfolios->title }}</h2>
-                        {{-- <h6>Analysis, Marketing</h6> --}}
+                        <h6>{{ $portfolios->portfolio_type }}</h6>
                         <p>{{ $portfolios->description }}</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-3">
                     <div class="portfolio-meta">
-                        <h6><strong>Client: &nbsp;</strong> {{ $portfolios->client }}</h6>
-                        <h6><strong>Date: &nbsp;</strong> {{ $portfolios->ordered_at }}</h6>
-                        <h6><strong>Location: &nbsp;</strong> {{ $portfolios->location }}</h6>
+                        <h6><strong>Client: </strong> &nbsp; {{ $portfolios->client }}</h6>
+                        <h6><strong>Date: </strong> &nbsp; {{ $portfolios->ordered_at }}</h6>
+                        <h6><strong>Location: </strong> &nbsp; {{ $portfolios->location }}</h6>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,13 @@
             <div class="row">
                 <div class="col-12">
                     <div class="portfolio-thumbnail mt-80">
-                        <img src="{{ Voyager::image($portfolios->image) }}" alt="">
+                        @php
+                            $images = json_decode($portfolios->image);
+                        @endphp
+                        @foreach ($images as $img)
+                            <hr>
+                            <img src="{{ filter_var($img, FILTER_VALIDATE_URL) ? $img : Voyager::image( $img ) }}" style="width:100%" />
+                        @endforeach
                     </div>
                 </div>
             </div>
