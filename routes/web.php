@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\TeamOfExpertController;
@@ -22,9 +23,7 @@ Route::resource('/portfolios', PortfolioController::class);
 
 Route::get('/about', [TeamOfExpertController::class, 'index']);
 
-Route::get('/contact', function () {
-    return view('components.pages.contact');
-});
+Route::resource('/contact', ContactUsController::class);
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
