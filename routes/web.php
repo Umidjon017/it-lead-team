@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PortfolioController;
+use App\Http\Controllers\TeamOfExpertController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,20 +16,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'index']);
 
 Route::resource('/portfolios', PortfolioController::class);
 
-Route::get('/about', function () {
-    return view('components.pages.about');
-});
+Route::get('/about', [TeamOfExpertController::class, 'index']);
 
 Route::get('/contact', function () {
     return view('components.pages.contact');
 });
-
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

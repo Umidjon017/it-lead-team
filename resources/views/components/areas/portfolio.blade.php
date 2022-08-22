@@ -15,91 +15,27 @@
         <div class="row">
             <!-- Portfolio Slides -->
             <div class="portfolio-sildes owl-carousel">
-
+                
+                @foreach ($portfolios as $portfolio)
                 <!-- Single Portfolio Slide -->
                 <div class="single-portfolio-slide">
-                    <img src="./img/bg-img/3.jpg" alt="">
+                    @php
+                        $images = json_decode($portfolio->image);
+                    @endphp
+                    @foreach ($images as $img)
+                        <img src="{{ filter_var($img, FILTER_VALIDATE_URL) ? $img : Voyager::image( $img ) }}" style="width:100%" />
+                    @endforeach
                     <!-- Overlay Effect -->
                     <div class="overlay-effect">
-                        <h4>Digital Marketing</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
+                        <h4>{{ $portfolio->title }}</h4>
+                        <p>{{ $portfolio->description }}</p>
                     </div>
                     <!-- View More -->
                     <div class="view-more-btn">
-                        <a href="#"><i class="arrow_right"></i></a>
+                        <a href="{{ route('portfolios.show', $portfolio->id) }}"><i class="arrow_right"></i></a>
                     </div>
                 </div>
-
-                <!-- Single Portfolio Slide -->
-                <div class="single-portfolio-slide">
-                    <img src="./img/bg-img/4.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h4>Digital Marketing</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
-                    </div>
-                    <!-- View More -->
-                    <div class="view-more-btn">
-                        <a href="#"><i class="arrow_right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Portfolio Slide -->
-                <div class="single-portfolio-slide">
-                    <img src="./img/bg-img/5.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h4>Digital Marketing</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
-                    </div>
-                    <!-- View More -->
-                    <div class="view-more-btn">
-                        <a href="#"><i class="arrow_right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Portfolio Slide -->
-                <div class="single-portfolio-slide">
-                    <img src="./img/bg-img/6.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h4>Digital Marketing</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
-                    </div>
-                    <!-- View More -->
-                    <div class="view-more-btn">
-                        <a href="#"><i class="arrow_right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Portfolio Slide -->
-                <div class="single-portfolio-slide">
-                    <img src="./img/bg-img/5.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h4>Digital Marketing</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
-                    </div>
-                    <!-- View More -->
-                    <div class="view-more-btn">
-                        <a href="#"><i class="arrow_right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Portfolio Slide -->
-                <div class="single-portfolio-slide">
-                    <img src="./img/bg-img/6.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h4>Digital Marketing</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
-                    </div>
-                    <!-- View More -->
-                    <div class="view-more-btn">
-                        <a href="#"><i class="arrow_right"></i></a>
-                    </div>
-                </div>
-
+                @endforeach
             </div>
         </div>
     </div>

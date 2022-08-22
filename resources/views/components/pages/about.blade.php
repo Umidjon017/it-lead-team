@@ -35,7 +35,7 @@
     <!-- ***** Why Choose Us Area End ***** -->
 
     <!-- ***** Team Member Area Start ***** -->
-    @include('components.areas.team-member')
+    @include('components.areas.team-member')    
     <!-- ***** Team Member Area End ***** -->
 
     <!-- ***** CTA Area Start ***** -->

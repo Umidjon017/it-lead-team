@@ -16,158 +16,25 @@
             <!-- Team Member Slides -->
             <div class="team-sildes owl-carousel">
 
+                @foreach ($experts as $expert)
                 <!-- Single Team Slide -->
                 <div class="single-team-slide">
-                    <img src="./img/bg-img/18.jpg" alt="">
+                    <img src="{{ filter_var($expert->image, FILTER_VALIDATE_URL) ? $expert->image : Voyager::image( $expert->image ) }}" style="width:auto; height: auto; object-fit:contain;"  />
+                    
                     <!-- Overlay Effect -->
                     <div class="overlay-effect">
-                        <h6>DESIGNER</h6>
-                        <h4>Roger Black</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.</p>
+                        <h6>{{ $expert->profession }}</h6>
+                        <h4>{{ $expert->full_name }}</h4>
+                        <p>{{ $expert->description }}</p>
                     </div>
                     <!-- Social Info -->
                     <div class="team-social-info">
-                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                        <a href="#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a>
+                        <a href="{{ $expert->link_linkedin }}" target="_blank" class="linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="{{ $expert->link_telegram }}" target="_blank" class="telegram" data-toggle="tooltip" data-placement="top" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="{{ $expert->link_github }}" target="_blank" class="github" data-toggle="tooltip" data-placement="top" title="Github"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
-
-                <!-- Single Team Slide -->
-                <div class="single-team-slide">
-                    <img src="./img/bg-img/19.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h6>DESIGNER</h6>
-                        <h4>Roger Black</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.</p>
-                    </div>
-                    <!-- Social Info -->
-                    <div class="team-social-info">
-                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                        <a href="#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Team Slide -->
-                <div class="single-team-slide">
-                    <img src="./img/bg-img/20.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h6>DESIGNER</h6>
-                        <h4>Roger Black</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.</p>
-                    </div>
-                    <!-- Social Info -->
-                    <div class="team-social-info">
-                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                        <a href="#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Team Slide -->
-                <div class="single-team-slide">
-                    <img src="./img/bg-img/21.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h6>DESIGNER</h6>
-                        <h4>Roger Black</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.</p>
-                    </div>
-                    <!-- Social Info -->
-                    <div class="team-social-info">
-                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                        <a href="#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Team Slide -->
-                <div class="single-team-slide">
-                    <img src="./img/bg-img/18.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h6>DESIGNER</h6>
-                        <h4>Roger Black</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.</p>
-                    </div>
-                    <!-- Social Info -->
-                    <div class="team-social-info">
-                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                        <a href="#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Team Slide -->
-                <div class="single-team-slide">
-                    <img src="./img/bg-img/19.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h6>DESIGNER</h6>
-                        <h4>Roger Black</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.</p>
-                    </div>
-                    <!-- Social Info -->
-                    <div class="team-social-info">
-                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                        <a href="#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Team Slide -->
-                <div class="single-team-slide">
-                    <img src="./img/bg-img/20.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h6>DESIGNER</h6>
-                        <h4>Roger Black</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.</p>
-                    </div>
-                    <!-- Social Info -->
-                    <div class="team-social-info">
-                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                        <a href="#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Team Slide -->
-                <div class="single-team-slide">
-                    <img src="./img/bg-img/21.jpg" alt="">
-                    <!-- Overlay Effect -->
-                    <div class="overlay-effect">
-                        <h6>DESIGNER</h6>
-                        <h4>Roger Black</h4>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.</p>
-                    </div>
-                    <!-- Social Info -->
-                    <div class="team-social-info">
-                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                        <a href="#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a>
-                    </div>
-                </div>
-
+                @endforeach
             </div>
         </div>
     </div>
