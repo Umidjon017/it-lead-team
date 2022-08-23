@@ -98,11 +98,11 @@
                             <h4>Contact Us</h4>
                             <h3>(+998)99 988-35-00</h3>
                             <h3>(+998)91 170-20-17</h3>
-                            <h6>hello.colorlib@gmail.com</h6>
+                            <h6>it-lead.team@gmail.com</h6>
                             <h6>Mon - Sat: 9:00 - 19:00 <br>Closed on Weekends</h6>
                         </div>
 
-                        <!-- Single Sidebar Area -->
+                        {{-- <!-- Single Sidebar Area -->
                         <div class="single-contact-card mb-50">
                             <h4>London</h4>
                             <h3>(+65) 2222 5678</h3>
@@ -114,7 +114,7 @@
                             <h4>New York</h4>
                             <h3>(+65) 6666 5678</h3>
                             <h6>40 Baria Sreet 13/2 NY City, US <br>hello.colorlib@gmail.com</h6>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>

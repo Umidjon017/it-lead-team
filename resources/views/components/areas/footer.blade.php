@@ -3,17 +3,18 @@
         <div class="row justify-content-between">
 
             <!-- Single Footer Widget -->
-            <div class="col-12 col-sm-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-4">
                 <div class="single-footer-widget mb-80">
                     <!-- Widget Title -->
                     <h4 class="widget-title">Contact Us</h4>
 
                     <!-- Footer Content -->
                     <div class="footer-content mb-15">
-                        <h3>(+65) 1234 5678</h3>
-                        <p>40 Baria Sreet 13/2 NY City, US <br> hello.colorlib@gmail.com</p>
+                        <h3 style="font-size: 25px">(+998)99 988-35-00</h3>
+                        <h3 style="font-size: 25px">(+998)91 170-20-17</h3>
+                        <p>Boburshoh ko'cha 2-uy, Andijan, Uzbekistan <br> it-lead.team@gmail.com </p>
                     </div>
-                    <p class="mb-0">Mon - Fri: 9:00 - 19:00 <br>
+                    <p class="mb-0">Mon - Sat: 9:00 - 19:00 <br>
                         Closed on Weekends</p>
                 </div>
             </div>
@@ -27,17 +28,17 @@
                     <!-- Nav -->
                     <nav>
                         <ul class="our-link">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Forum Registeration</a></li>
-                            <li><a href="#">Forum Sign In</a></li>
+                            <li><a href="{{ route('generated::WK8FvuacA91q1n3f') }}">About Us</a></li>
+                            {{-- <li><a href="#">Blog</a></li> --}}
+                            <li><a href="{{ route('contact.index') }}">Contact Us</a></li>
+                            {{-- <li><a href="#">Forum Registeration</a></li>
+                            <li><a href="#">Forum Sign In</a></li> --}}
                         </ul>
                     </nav>
                 </div>
             </div>
 
-            <!-- Single Footer Widget -->
+            {{-- <!-- Single Footer Widget -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-footer-widget mb-80">
                     <!-- Widget Title -->
@@ -54,7 +55,7 @@
                         </ul>
                     </nav>
                 </div>
-            </div>
+            </div> --}}
 
             <!-- Single Footer Widget -->
             <div class="col-12 col-sm-6 col-lg-3">
@@ -65,16 +66,14 @@
 
                     <!-- Copywrite Text -->
                     <div class="copywrite-text mb-30">
-                        <p>&copy; Copyright 2018 <a href="#">Colorlib</a>.</p>
+                        <p>&copy; Copyright 2022 <a href="#" style="font-size: 25px">IT LEAD</a>.</p>
                     </div>
 
                     <!-- Social Info -->
                     <div class="footer-social-info">
-                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                        <a href="#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#" target="_blank" class="linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" target="_blank" class="telegram" data-toggle="tooltip" data-placement="top" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#" target="_blank" class="github" data-toggle="tooltip" data-placement="top" title="Github"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </div>
