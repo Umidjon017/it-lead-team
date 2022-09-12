@@ -98,7 +98,7 @@
                             <h4>Aloqa</h4>
                             <h3>(+998)99 988-35-00</h3>
                             <h6>uil.team@gmail.com</h6>
-                            <h6>Mon - Sat: 9:00 - 19:00 <br>Closed on Weekends</h6>
+                            <h6>Du - Sha: 9:00 - 18:00 <br>Yakshanba dam olish kuni</h6>
                         </div>
 
                         {{-- <!-- Single Sidebar Area -->

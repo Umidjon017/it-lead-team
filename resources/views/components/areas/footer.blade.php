@@ -13,8 +13,8 @@
                         <h3 style="font-size: 25px">(+998)99 988-35-00</h3>
                         <p>Boburshoh ko'cha 2-uy, Andijan, Uzbekistan <br>uil.team@gmail.com</p>
                     </div>
-                    <p class="mb-0">Mon - Sat: 9:00 - 19:00 <br>
-                        Closed on Weekends</p>
+                    <p class="mb-0">Du - Sha: 9:00 - 18:00 <br>
+                        Yakshanba dam olish kuni</p>
                 </div>
             </div>
 

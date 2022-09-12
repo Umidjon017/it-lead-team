@@ -4,8 +4,8 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-7">
                 <div class="cta-content mb-80">
-                    <h2>{{ __("Biz bilan ishlashga qiziqasizmi?") }}</h2>
-                    <h6>{{ __("Quyidagi tugmani bosing yoki bizga qo'ng'iroq qiling!") }}</h6>
+                    <h2>{{ __("Biz bilan bog'laning") }}</h2>
+                    {{-- <h6>{{ __("Quyidagi tugmani bosing yoki bizga qo'ng'iroq qiling!") }}</h6> --}}
                 </div>
             </div>
 

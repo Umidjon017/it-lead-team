@@ -1,4 +1,4 @@
-<section class="uza-services-area section-padding-80-0">
+<section class="uza-services-area">
     <div class="container">
         <div class="row">
             <!-- Section Heading -->

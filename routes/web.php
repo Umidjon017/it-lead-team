@@ -1,10 +1,10 @@
 <?php
 
-use App\Http\Controllers\ContactUsController;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\TeamOfExpertController;
-use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------

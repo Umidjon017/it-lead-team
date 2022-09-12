@@ -17,7 +17,7 @@
                             <div class="welcome-text">
                                 <h2 data-animation="fadeInUp" data-delay="100ms">Biznesingizga <span>Digital Marketing</span> tomonlama yordam beramiz</h2>
                                 <h5 data-animation="fadeInUp" data-delay="400ms">Hozirgi kunda Digital Marketinggi yo'q biznesni kelajagi yo'q </h5>
-                                <a href="#" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Malumot olish</a>
+                                <a href="{{ route('about') }}" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Malumot olish</a>
                             </div>
                         </div>
                         <!-- Welcome Thumbnail -->
@@ -47,7 +47,7 @@
                             <div class="welcome-text">
                                 <h2 data-animation="fadeInUp" data-delay="100ms">Biznesingizga <span>Digital Marketing</span> tomonlama yordam beramiz</h2>
                                 <h5 data-animation="fadeInUp" data-delay="400ms">Hozirgi kunda Digital Marketinggi yo'q biznesni kelajagi yo'q </h5>
-                                <a href="#" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Malumot olish</a>
+                                <a href="{{ route('about') }}" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Malumot olish</a>
                             </div>
                         </div>
                         <!-- Welcome Thumbnail -->
@@ -77,7 +77,7 @@
                             <div class="welcome-text">
                                 <h2 data-animation="fadeInUp" data-delay="100ms">Biznesingizga <span>Digital Marketing</span> tomonlama yordam beramiz</h2>
                                 <h5 data-animation="fadeInUp" data-delay="400ms">Hozirgi kunda Digital Marketinggi yo'q biznesni kelajagi yo'q </h5>
-                                <a href="#" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Malumot olish</a>
+                                <a href="{{ route('about') }}" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Malumot olish</a>
                             </div>
                         </div>
                         <!-- Welcome Thumbnail -->

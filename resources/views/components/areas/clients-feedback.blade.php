@@ -9,7 +9,7 @@
                     <div class="single-testimonial-slide d-flex align-items-center">
                         <!-- Testimonial Thumbnail -->
                         <div class="testimonial-thumbnail">
-                            <img src="./img/bg-img/7.jpg" alt="">
+                            <img src="{{ asset('/img/bg-img/7.jpg') }}" alt="">
                         </div>
                         <!-- Testimonial Content -->
                         <div class="testimonial-content">
@@ -27,7 +27,7 @@
                                 <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
                             </div>
                             <!-- Quote Icon -->
-                            <div class="quote-icon"><img src="img/core-img/quote.png" alt=""></div>
+                            <div class="quote-icon"><img src="{{ asset('img/core-img/quote.png') }}" alt=""></div>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@
                     <div class="single-testimonial-slide d-flex align-items-center">
                         <!-- Testimonial Thumbnail -->
                         <div class="testimonial-thumbnail">
-                            <img src="./img/bg-img/23.jpg" alt="">
+                            <img src="{{ asset('/img/bg-img/23.jpg') }}" alt="">
                         </div>
                         <!-- Testimonial Content -->
                         <div class="testimonial-content">
@@ -53,7 +53,7 @@
                                 <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
                             </div>
                             <!-- Quote Icon -->
-                            <div class="quote-icon"><img src="img/core-img/quote.png" alt=""></div>
+                            <div class="quote-icon"><img src="{{ asset('img/core-img/quote.png') }}" alt=""></div>
                         </div>
                     </div>
 
@@ -61,7 +61,7 @@
                     <div class="single-testimonial-slide d-flex align-items-center">
                         <!-- Testimonial Thumbnail -->
                         <div class="testimonial-thumbnail">
-                            <img src="./img/bg-img/24.jpg" alt="">
+                            <img src="{{ asset('/img/bg-img/24.jpg') }}" alt="">
                         </div>
                         <!-- Testimonial Content -->
                         <div class="testimonial-content">
@@ -79,7 +79,7 @@
                                 <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
                             </div>
                             <!-- Quote Icon -->
-                            <div class="quote-icon"><img src="img/core-img/quote.png" alt=""></div>
+                            <div class="quote-icon"><img src="{{ asset('img/core-img/quote.png') }}" alt=""></div>
                         </div>
                     </div>
 

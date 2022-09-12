@@ -21,7 +21,7 @@
             <!-- Choose Us Thumbnail -->
             <div class="col-12 col-lg-6">
                 <div class="choose-us-thumbnail mb-80">
-                    <img class="w-100" src="img/bg-img/22.jpg" alt="">
+                    <img class="w-100" src="{{ asset('img/bg-img/22.jpg') }}" alt="">
                 </div>
             </div>
         </div>

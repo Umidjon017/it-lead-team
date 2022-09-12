@@ -53,6 +53,6 @@
 
     <!-- Background Curve -->
     <div class="portfolio-bg-curve">
-        <img src="./img/core-img/curve-3.png" alt="">
+        <img src="{{ asset('/img/core-img/curve-3.png') }}" alt="">
     </div>
 </section>

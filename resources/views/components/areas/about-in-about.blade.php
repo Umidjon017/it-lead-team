@@ -4,7 +4,7 @@
             <!-- About Thumbnail -->
             <div class="col-12 col-lg-6">
                 <div class="about-us-thumbnail mb-80">
-                    <img src="./img/bg-img/2.jpg" alt="">
+                    <img src="{{ asset('/img/bg-img/2.jpg') }}" alt="">
                     <!-- Video Area -->
                     <div class="uza-video-area hi-icon-effect-8">
                         <a href="https://www.youtube.com/watch?v=sSakBz_eYzQ" class="hi-icon video-play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
@@ -71,6 +71,6 @@
 
     <!-- About Background Pattern -->
     <div class="about-bg-pattern">
-        <img src="./img/core-img/curve-2.png" alt="">
+        <img src="{{ asset('/img/core-img/curve-2.png') }}" alt="">
     </div>
 </section>
