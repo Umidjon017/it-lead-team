@@ -4,7 +4,7 @@
             <!-- Section Heading -->
             <div class="col-12">
                 <div class="section-heading text-center">
-                    <h2>Our Services</h2>
+                    <h2>{{ __("Hizmatlarimiz") }}</h2>
                 </div>
             </div>
         </div>
@@ -16,10 +16,10 @@
                 <div class="single-service-area mb-80">
                     <!-- Service Icon -->
                     <div class="service-icon">
-                        <i class="icon_cone_alt"></i>
+                        <i class="fa-solid fa-code"></i>
                     </div>
-                    <h5>Business Strategy</h5>
-                    <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata.</p>
+                    <h5>{{ __("Veb Saytlar") }}</h5>
+                    <p>{{ __("Korporativ veb saytlardan tortib veb ilovalargacha boʻlgan murakkablikdagi internet saytlarni sifat kafolati bilan ishlab chiqamiz") }}</p>
                 </div>
             </div>
 
@@ -28,10 +28,10 @@
                 <div class="single-service-area mb-80">
                     <!-- Service Icon -->
                     <div class="service-icon">
-                        <i class="icon_piechart"></i>
+                        <i class="fa-brands fa-figma"></i>
                     </div>
-                    <h5>Market Analytics</h5>
-                    <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata.</p>
+                    <h5>{{ __("UI&UX Dizayn") }}</h5>
+                    <p>{{ __("Loyiha MindMapʼini ishlab chiqish va ushbu arxitektura asosida optimal yechimga ega dizaynlarni chizish") }}</p>
                 </div>
             </div>
 
@@ -42,8 +42,8 @@
                     <div class="service-icon">
                         <i class="icon_easel"></i>
                     </div>
-                    <h5>Marketing Social</h5>
-                    <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata.</p>
+                    <h5>{{ __("SMM") }}</h5>
+                    <p>{{ __("Korporativ veb saytlardan tortib veb ilovalargacha boʻlgan murakkablikdagi internet saytlarni sifat kafolati bilan ishlab chiqamiz") }}</p>
                 </div>
             </div>
 

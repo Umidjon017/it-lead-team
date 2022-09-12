@@ -7,11 +7,11 @@
             <div class="row h-100 align-items-end">
                 <div class="col-12">
                     <div class="breadcumb--con">
-                        <h2 class="title">About</h2>
+                        <h2 class="title">{{ __("Biz haqimizda") }}</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fa fa-home"></i> Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">About</li>
+                                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fa fa-home"></i> {{ __("Bosh sahifa") }} </a></li>
+                                <li class="breadcrumb-item active" aria-current="page">{{ __("Biz haqimizda") }}</li>
                             </ol>
                         </nav>
                     </div>

@@ -1,4 +1,5 @@
 @extends('layouts.app')
+
 @section('main-content')
     <!-- ***** Breadcrumb Area Start ***** -->
     <div class="breadcrumb-area">
@@ -6,12 +7,12 @@
             <div class="row h-100 align-items-end">
                 <div class="col-12">
                     <div class="breadcumb--con">
-                        <h2 class="title">Portfolio</h2>
+                        <h2 class="title">{{ __("Portfolio") }}</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fa fa-home"></i> Home</a></li>
-                                <li class="breadcrumb-item"><a href="{{ url('portfolios') }}">Portfolio</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">App Developement</li>
+                                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fa fa-home"></i>{{ __("Bosh sahifa") }}</a></li>
+                                <li class="breadcrumb-item"><a href="{{ url('portfolios') }}">{{ __("Portfolio") }}</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">{{ __("App Developement") }}</li>
                             </ol>
                         </nav>
                     </div>
@@ -39,9 +40,9 @@
                 </div>
                 <div class="col-12 col-md-4 col-lg-3">
                     <div class="portfolio-meta">
-                        <h6><strong>Client: </strong> &nbsp; {{ $portfolios->client }}</h6>
-                        <h6><strong>Date: </strong> &nbsp; {{ $portfolios->ordered_at }}</h6>
-                        <h6><strong>Location: </strong> &nbsp; {{ $portfolios->location }}</h6>
+                        <h6><strong>{{ __("Client:") }} </strong> &nbsp; {{ $portfolios->client }}</h6>
+                        <h6><strong>{{ __("Date:") }} </strong> &nbsp; {{ $portfolios->ordered_at }}</h6>
+                        <h6><strong>{{ __("Location:") }} </strong> &nbsp; {{ $portfolios->location }}</h6>
                     </div>
                 </div>
             </div>
@@ -65,9 +66,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="portfolio-pager mt-80 d-flex align-items-center justify-content-between">
-                        <a href="{{ $previous_record }}"><i class="arrow_left"></i> {{ __("Previous Post") }}</a>
-                        <a href="{{ url('/') }}">{{ __("Back to home") }}</a>
-                        <a href="{{ $next_record }}">{{ __("Next Post") }}<i class="arrow_right"></i></a>
+                        <a href="{{ $previous_record }}"><i class="arrow_left"></i> {{ __("Oldingi Post") }}</a>
+                        <a href="{{ url('/') }}">{{ __("Bosh sahifaga qaytish") }}</a>
+                        <a href="{{ $next_record }}">{{ __("Keyingi Post") }}<i class="arrow_right"></i></a>
                     </div>
                 </div>
             </div>

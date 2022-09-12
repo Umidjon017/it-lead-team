@@ -4,8 +4,8 @@
             <!-- Section Heading -->
             <div class="col-12">
                 <div class="section-heading text-center">
-                    <h2>Our Portfolio</h2>
-                    <p>We stay on top of our industry by being experts in yours.</p>
+                    <h2>{{ __("Portfolio") }}</h2>
+                    <p>{{ __("Biz sizning sohangiz bo'yicha mutaxassis bo'lib, o'z sohamizning yuqori qismida qolamiz.") }}</p>
                 </div>
             </div>
         </div>

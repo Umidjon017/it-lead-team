@@ -4,8 +4,8 @@
             <!-- Section Heading -->
             <div class="col-12">
                 <div class="section-heading text-center">
-                    <h2>Team of Experts</h2>
-                    <p>We stay on top of our industry by being experts in yours.</p>
+                    <h2>{{ __("Mutaxassislar jamoasi") }}</h2>
+                    <p>{{ __("Biz sizning sohangiz bo'yicha mutaxassis bo'lib, o'z sohamizning yuqori qismida qolamiz.") }}</p>
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
                 @foreach ($experts as $expert)
                 <!-- Single Team Slide -->
                 <div class="single-team-slide">
-                    <img src="{{ filter_var($expert->image, FILTER_VALIDATE_URL) ? $expert->image : Voyager::image( $expert->image ) }}" style="width:auto; height: auto; object-fit:contain;"  />
+                    <img src="{{ Voyager::image( $expert->image ) }}" style="width:auto; height: auto; object-fit:contain;"  />
                     
                     <!-- Overlay Effect -->
                     <div class="overlay-effect">

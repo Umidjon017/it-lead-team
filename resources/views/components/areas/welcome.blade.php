@@ -15,9 +15,9 @@
                         <!-- Welcome Text -->
                         <div class="col-12 col-md-6">
                             <div class="welcome-text">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">IT LEAD makes your <br> business <span>greater</span></h2>
-                                <h5 data-animation="fadeInUp" data-delay="400ms">We love to create "cool" things on Digital Platforms</h5>
-                                <a href="#" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Start Exploring</a>
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Biznesingizga <span>Digital Marketing</span> tomonlama yordam beramiz</h2>
+                                <h5 data-animation="fadeInUp" data-delay="400ms">Hozirgi kunda Digital Marketinggi yo'q biznesni kelajagi yo'q </h5>
+                                <a href="#" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Malumot olish</a>
                             </div>
                         </div>
                         <!-- Welcome Thumbnail -->
@@ -45,9 +45,9 @@
                         <!-- Welcome Text -->
                         <div class="col-12 col-md-6">
                             <div class="welcome-text">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Uza makes your <br> biz <span>greater</span></h2>
-                                <h5 data-animation="fadeInUp" data-delay="400ms">We love to create "cool" things on Digital Platforms</h5>
-                                <a href="#" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Start Exploring</a>
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Biznesingizga <span>Digital Marketing</span> tomonlama yordam beramiz</h2>
+                                <h5 data-animation="fadeInUp" data-delay="400ms">Hozirgi kunda Digital Marketinggi yo'q biznesni kelajagi yo'q </h5>
+                                <a href="#" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Malumot olish</a>
                             </div>
                         </div>
                         <!-- Welcome Thumbnail -->
@@ -75,9 +75,9 @@
                         <!-- Welcome Text -->
                         <div class="col-12 col-md-6">
                             <div class="welcome-text">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Uza makes your <br> biz <span>greater</span></h2>
-                                <h5 data-animation="fadeInUp" data-delay="400ms">We love to create "cool" things on Digital Platforms</h5>
-                                <a href="#" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Start Exploring</a>
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Biznesingizga <span>Digital Marketing</span> tomonlama yordam beramiz</h2>
+                                <h5 data-animation="fadeInUp" data-delay="400ms">Hozirgi kunda Digital Marketinggi yo'q biznesni kelajagi yo'q </h5>
+                                <a href="#" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Malumot olish</a>
                             </div>
                         </div>
                         <!-- Welcome Thumbnail -->

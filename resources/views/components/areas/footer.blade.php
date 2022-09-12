@@ -6,13 +6,12 @@
             <div class="col-12 col-sm-6 col-lg-4">
                 <div class="single-footer-widget mb-80">
                     <!-- Widget Title -->
-                    <h4 class="widget-title">Contact Us</h4>
+                    <h4 class="widget-title">Biz bilan bog'laning</h4>
 
                     <!-- Footer Content -->
                     <div class="footer-content mb-15">
                         <h3 style="font-size: 25px">(+998)99 988-35-00</h3>
-                        <h3 style="font-size: 25px">(+998)91 170-20-17</h3>
-                        <p>Boburshoh ko'cha 2-uy, Andijan, Uzbekistan <br> it-lead.team@gmail.com </p>
+                        <p>Boburshoh ko'cha 2-uy, Andijan, Uzbekistan <br>uil.team@gmail.com</p>
                     </div>
                     <p class="mb-0">Mon - Sat: 9:00 - 19:00 <br>
                         Closed on Weekends</p>
@@ -23,14 +22,14 @@
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-footer-widget mb-80">
                     <!-- Widget Title -->
-                    <h4 class="widget-title">Quick Link</h4>
+                    <h4 class="widget-title">Tez Aloqa</h4>
 
                     <!-- Nav -->
                     <nav>
                         <ul class="our-link">
-                            <li><a href="{{ route('about') }}">About Us</a></li>
+                            <li><a href="{{ route('about') }}">Biz haqimizda</a></li>
                             {{-- <li><a href="#">Blog</a></li> --}}
-                            <li><a href="{{ route('contact.index') }}">Contact Us</a></li>
+                            <li><a href="{{ route('contact.index') }}">Biz bilan Aloqa</a></li>
                             {{-- <li><a href="#">Forum Registeration</a></li>
                             <li><a href="#">Forum Sign In</a></li> --}}
                         </ul>
@@ -61,12 +60,12 @@
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-footer-widget mb-80">
                     <!-- Widget Title -->
-                    <h4 class="widget-title">About Us</h4>
-                    <p>Integer vehicula mauris libero, at molestie eros imperdiet sit amet.</p>
+                    <h4 class="widget-title">Biz haqimizda</h4>
+                    <p>Bizni Ijtimoiy tarmoqlarda kuzatib boring</p>
 
                     <!-- Copywrite Text -->
                     <div class="copywrite-text mb-30">
-                        <p>&copy; Copyright 2022 <a href="#" style="font-size: 25px">IT LEAD</a>.</p>
+                        <p>&copy; Copyright 2022 <a href="#" style="font-size: 25px">UIL TEAM</a>.</p>
                     </div>
 
                     <!-- Social Info -->
@@ -79,12 +78,5 @@
             </div>
 
         </div>
-
-        <div class="row" style="margin-bottom: 30px;">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            {{ __("Copyright") }} &copy; <script>document.write(new Date().getFullYear());</script> {{ __("All rights reserved | This template is made with ") }} <a href="{{ url('/') }}"> &nbsp; {{ __(" IT LEAD") }} </a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        </div>
-
     </div>
 </footer>

@@ -1,6 +1,6 @@
-/* :: 12.0 About CSS */
+/* :: 12.0 Biz haqimizda CSS */
 
-.about-us-content {
+.Biz haqimizda-us-content {
     position: relative;
     z-index: 1;
 
@@ -23,7 +23,7 @@
     }
 }
 
-.about-us-thumbnail {
+.Biz haqimizda-us-thumbnail {
     position: relative;
     z-index: 1;
     width: 100%;
@@ -84,11 +84,11 @@
     }
 }
 
-.uza-about-us-area {
+.uza-Biz haqimizda-us-area {
     position: relative;
     z-index: 1;
 
-    .about-bg-pattern {
+    .Biz haqimizda-bg-pattern {
         position: absolute;
         width: 40%;
         left: 0;
@@ -112,7 +112,7 @@
             width: 100%;
             height: 100%;
             border-radius: 50%;
-            content: '';
+            content: "";
             -webkit-box-sizing: content-box;
             -moz-box-sizing: content-box;
             box-sizing: content-box;
@@ -203,7 +203,7 @@
     }
 }
 
-.about-tab-area {
+.Biz haqimizda-tab-area {
     position: relative;
     z-index: 1;
 
@@ -228,7 +228,7 @@
         }
 
         &.active:after {
-            content: '';
+            content: "";
             position: absolute;
             bottom: -1px;
             left: 0;

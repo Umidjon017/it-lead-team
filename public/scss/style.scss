@@ -23,7 +23,7 @@ Last Update: Dec 31, 2018
     - 09.0 Portfolio CSS
     - 10.0 Testimonial CSS
     - 11.0 Newsletter CSS
-    - 12.0 About CSS
+    - 12.0 Biz haqimizda CSS
     - 13.0 Service CSS
     - 14.0 Breadcrumb CSS
     - 15.0 Blog CSS
@@ -31,7 +31,7 @@ Last Update: Dec 31, 2018
     - 17.0 CFA CSS
     - 18.0 Team CSS
     - 19.0 Footer CSS
-    - 20.0 Contact CSS
+    - 20.0 Aloqa CSS
   ---------------------------------------------
   [Color Codes]
 
@@ -50,14 +50,14 @@ Last Update: Dec 31, 2018
 --------------------------------------------- */
 
 /* Import Fonts & All CSS */
-@import 'fonts/aileron-font-style.css';
-@import 'css/bootstrap.min.css';
-@import 'css/animate.css';
-@import 'css/default-assets/classy-nav.css';
-@import 'css/owl.carousel.min.css';
-@import 'css/magnific-popup.css';
-@import 'css/font-awesome.min.css';
-@import 'css/style.css';
+@import "fonts/aileron-font-style.css";
+@import "css/bootstrap.min.css";
+@import "css/animate.css";
+@import "css/default-assets/classy-nav.css";
+@import "css/owl.carousel.min.css";
+@import "css/magnific-popup.css";
+@import "css/font-awesome.min.css";
+@import "css/style.css";
 
 // **************
 // Utilities
@@ -88,7 +88,7 @@ Last Update: Dec 31, 2018
 @import "portfolio";
 @import "testimonial";
 @import "newsletter";
-@import "about";
+@import "Biz haqimizda";
 @import "service";
 @import "breadcrumb";
 @import "blog";
@@ -96,4 +96,4 @@ Last Update: Dec 31, 2018
 @import "cfa";
 @import "team";
 @import "footer";
-@import "contact";
+@import "Aloqa";

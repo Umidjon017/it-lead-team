@@ -10,7 +10,7 @@
                         <h2 class="title">Portfolio</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fa fa-home"></i> Home</a></li>
+                                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fa fa-home"></i>Bosh sahifa</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
                             </ol>
                         </nav>
@@ -31,10 +31,9 @@
 
         <!-- Portfolio Menu -->
         <div class="portfolio-menu text-center mb-80">
-            <button class="btn active" data-filter="*">All Portfolio</button>
-            <button class="btn" data-filter=".ux-ui-design">UX/UI Design</button>
-            <button class="btn" data-filter=".market-analytics">Front End</button>
-            <button class="btn" data-filter=".marketing-social">Back End</button>
+            <button class="btn active" data-filter="*">{{ __("Hammasi") }}</button>
+            <button class="btn" data-filter=".ux-ui-design">{{ __("UX/UI Dizayn") }}</button>
+            <button class="btn" data-filter=".market-analytics">{{ __("SMM") }}</button>
         </div>
 
         <div class="container-fluid">
@@ -69,7 +68,7 @@
 
             <div class="row">
                 <div class="col-12 text-center mt-30">
-                    <a href="#" class="btn uza-btn btn-3">Load More</a>
+                    <a href="#" class="btn uza-btn btn-3">{{ __("Ko'proq") }}</a>
                 </div>
             </div>
         </div>

@@ -10,8 +10,8 @@
                         <h2 class="title">{{ __("Contact") }}</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fa fa-home"></i>{{ __("Home") }}</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">{{ __("Contact") }}</li>
+                                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fa fa-home"></i>{{ __("Bosh sahifa") }}</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">{{ __("Aloqa") }}</li>
                             </ol>
                         </nav>
                     </div>
@@ -52,14 +52,14 @@
                     @endif
                     <div class="uza-contact-form mb-80">
                         <div class="contact-heading mb-50">
-                            <h4>Thank you for your interest. <br>Please fill out the form below to inquire about our work in Digital.</h4>
+                            <h4>{{ __("Ushbu birlamchi ma’lumotlarni to‘ldirganingizdan so‘ng bizning mas’ul xodimlarimiz siz bilan aloqaga chiqishadi.") }}</h4>
                         </div>
                         <form action="{{ route('contact.store') }}" method="post">
                             @csrf
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control mb-30" name="full_name" placeholder="Name">
+                                        <input type="text" class="form-control mb-30" name="full_name" placeholder="Ism">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -69,21 +69,21 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control mb-30" name="phone" placeholder="Phone">
+                                        <input type="text" class="form-control mb-30" name="phone" placeholder="Telefon raqamingiz">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control mb-30" name="organization" placeholder="Organization">
+                                        <input type="text" class="form-control mb-30" name="organization" placeholder="Tashkilotingiz">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea class="form-control mb-30" name="message" rows="8" cols="80" placeholder="Message"></textarea>
+                                        <textarea class="form-control mb-30" name="message" rows="8" cols="80" placeholder="Habar"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" class="btn uza-btn btn-3 mt-15">{{ __("Contact Us") }}</button>
+                                    <button class="btn uza-btn btn-3 mt-15">{{ __("Tasdiqlash") }}</button>
                                 </div>
                             </div>
                         </form>
@@ -95,10 +95,9 @@
                     <div class="contact-sidebar-area mb-80">
                         <!-- Single Sidebar Area -->
                         <div class="single-contact-card mb-50">
-                            <h4>Contact Us</h4>
+                            <h4>Aloqa</h4>
                             <h3>(+998)99 988-35-00</h3>
-                            <h3>(+998)91 170-20-17</h3>
-                            <h6>it-lead.team@gmail.com</h6>
+                            <h6>uil.team@gmail.com</h6>
                             <h6>Mon - Sat: 9:00 - 19:00 <br>Closed on Weekends</h6>
                         </div>
 
@@ -123,7 +122,10 @@
                 <!-- Google Maps -->
                 <div class="col-12">
                     <div class="google-maps">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.662494712076!2d72.35897108359578!3d40.747451466928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bced630e0f4795%3A0xf72460c2369068a8!2sDigital%20City!5e0!3m2!1sen!2s!4v1661170397211!5m2!1sen!2s" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12090.644063958667!2d72.359572!3d40.74748400000001
+                        !3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf72460c2369068a8!2sDigital%20City!5e0!3m2!1sen!2sus!4v1663009861839!5m2!1sen
+                        !2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-
+                        downgrade"></iframe>
                     </div>
                 </div>
             </div>

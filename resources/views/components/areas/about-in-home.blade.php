@@ -15,12 +15,11 @@
 
             <!-- About Us Content -->
             <div class="col-12 col-md-6">
-                <div class="about-us-content mb-80">
-                    <h2>We're a Agency Team &amp; Digital Marketing</h2>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
-                    <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna
-                        liquyam erat.</p>
-                    <a href="#" class="btn uza-btn btn-2 mt-4">Start Exploring</a>
+                <div class="Biz haqimizda-us-content mb-80">
+                    <h2>{{ __("Biz Agentlik jamoasi") }} &amp; {{ __("raqamli marketingmiz") }}</h2>
+                    <p>{{ __("UIL raqamli marketing, dizayn va texnologiya sintezi orqali innovatsion raqamli marketing yechimlarini taqdim etuvchi raqamli marketing agentligidir.") }}</p>
+                    <p>{{ __("Biz keng qamrovli raqamli marketing strategiyalarimiz orqali brend xabardorligi va brend ishtirokini oshirish orqali korxonalarning o'sishiga va ularning raqamli mavjudligini o'rnatishga yordam berishga e'tibor qaratamiz.") }}</p>
+                    <a href="#" class="btn uza-btn btn-2 mt-4">{{ __("O'rganishni boshlang") }}</a>
                 </div>
             </div>
         </div>
