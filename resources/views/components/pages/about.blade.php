@@ -49,8 +49,4 @@
     <!-- ***** Cool Facts Area Start ***** -->
     @include('components.areas.cool-facts')
     <!-- ***** Cool Facts Area End ***** -->
-
-    <!-- ***** Newsletter Area Start ***** -->
-    @include('components.areas.newsletter')
-    <!-- ***** Newsletter Area End ***** -->
 @endsection

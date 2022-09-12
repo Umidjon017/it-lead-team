@@ -130,8 +130,4 @@
         </div>
     </section>
     <!-- ***** Contact Area End ***** -->
-
-    <!-- ***** Header Area Start ***** -->
-    @include('components.areas.newsletter')
-    <!-- ***** Header Area End ***** -->
 @endsection

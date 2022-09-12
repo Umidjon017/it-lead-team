@@ -19,12 +19,14 @@
                 @foreach ($portfolios as $portfolio)
                 <!-- Single Portfolio Slide -->
                 <div class="single-portfolio-slide">
-                    @php
+                    {{-- @php
                         $images = json_decode($portfolio->image);
                     @endphp
                     @foreach ($images as $img)
                         <img src="{{ filter_var($img, FILTER_VALIDATE_URL) ? $img : Voyager::image( $img ) }}" style="width:100%" />
-                    @endforeach
+                    @endforeach --}}
+
+                    <img src="{{ Voyager::image( $portfolio->image ) }}" alt="">
                     <!-- Overlay Effect -->
                     <div class="overlay-effect">
                         <h4>{{ $portfolio->title }}</h4>

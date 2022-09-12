@@ -17,11 +17,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::resource('/portfolios', PortfolioController::class);
 
-Route::get('/about', [TeamOfExpertController::class, 'index']);
+Route::get('/about', [TeamOfExpertController::class, 'index'])->name('about');
 
 Route::resource('/contact', ContactUsController::class);
 

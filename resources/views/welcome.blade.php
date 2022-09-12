@@ -21,9 +21,4 @@
     <!-- ***** Blog Area Start ***** -->
     @include('components.areas.cta')
     <!-- ***** Blog Area End ***** -->
-
-    <!-- ***** Newsletter Area Start ***** -->
-    @include('components.areas.newsletter')
-    <!-- ***** Newsletter Area End ***** -->
-
 @endsection

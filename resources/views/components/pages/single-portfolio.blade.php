@@ -49,13 +49,15 @@
             <div class="row">
                 <div class="col-12">
                     <div class="portfolio-thumbnail mt-80">
-                        @php
+                        {{-- @php
                             $images = json_decode($portfolios->image);
                         @endphp
                         @foreach ($images as $img)
                             <hr>
                             <img src="{{ filter_var($img, FILTER_VALIDATE_URL) ? $img : Voyager::image( $img ) }}" style="width:100%" />
-                        @endforeach
+                        @endforeach --}}
+
+                        <img src="{{ Voyager::image( $portfolios->image ) }}" alt="">
                     </div>
                 </div>
             </div>
@@ -72,6 +74,4 @@
         </div>
     </section>
     <!-- ***** Portfolio Single Area End ***** -->
-
-    @include('components.areas.newsletter')
 @endsection

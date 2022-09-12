@@ -28,7 +28,7 @@
                     <!-- Nav -->
                     <nav>
                         <ul class="our-link">
-                            <li><a href="{{ route('generated::WK8FvuacA91q1n3f') }}">About Us</a></li>
+                            <li><a href="{{ route('about') }}">About Us</a></li>
                             {{-- <li><a href="#">Blog</a></li> --}}
                             <li><a href="{{ route('contact.index') }}">Contact Us</a></li>
                             {{-- <li><a href="#">Forum Registeration</a></li>
